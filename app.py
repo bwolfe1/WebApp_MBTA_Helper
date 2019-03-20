@@ -35,5 +35,4 @@ def nearest():
         return render_template('Loading.html', Accessible=Accessible, Stop_name=Stop_name )
     else:
         return render_template('WebPageHello.html')
-if __name__ == '__main__':
-    app.run()
+
